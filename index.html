@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My-portfolio-website</title>
+      <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+      <nav class="navbar">
+            <h1>Logo.</h1>
+            <ul>
+                  <li><a href=""><span class="title">Home</span></a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Skills</a></li>
+                  <li><a href="">Portfolio</a></li>
+                  <li><a href="">Contact</a></li>
+            </ul>
+            <img class="moon" onclick="darkMode()" src="images/crescent-moon.png" alt="">
+      </nav>
+      <div class="container">
+            <div class="content">
+                  <h3 class="head">Hi, It's Me</h3>
+                  <h1 class="heading">I'm <span class="name">Mirajul</span></h1>
+                  <p class="para">I'm a professional Web Developer. Our Main Goal to help & <br>
+                        Satisfied the local & Global Clients by Web Development <br>
+                        solutions.</p>
+                  <div class="img">
+                        <a href=""><img class="images" src="images/Facebook.png" alt=""></a>
+                        <a href=""><img class="images" src="images/Instagram.png" alt=""></a>
+                        <a href=""><img class="images" src="images/Linkedin.png" alt=""></a>
+                        <a href=""><img class="whatsapp" src="images/whatsapp.png" alt=""></a>
+                        <a href=""><img class="Github" src="images/32px-Github.png" alt=""></a>
+                  </div>
+            </div>
+            <div>
+                  <img class="killer" src="images/killer.jpg" alt="">
+            </div>
+      </div>
+      <script>
+            function darkMode() {
+                  var element = document.body;
+                  element.classList.toggle("dark-mode");
+            }
+      </script>
+
+</body>
+
+</html>
